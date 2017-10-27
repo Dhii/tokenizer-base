@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f11b84cfd17e9de2bac6ed20d115421",
-    "packages": [],
+    "content-hash": "a7697bb7f77b59cce07fefb05048ade3",
+    "packages": [
+        {
+            "name": "dhii/data-key-value-aware-abstract",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/data-key-value-aware-abstract.git",
+                "reference": "b8963d5f8e8ed06bf7915df43168c6dfda9a7fb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/data-key-value-aware-abstract/zipball/b8963d5f8e8ed06bf7915df43168c6dfda9a7fb9",
+                "reference": "b8963d5f8e8ed06bf7915df43168c6dfda9a7fb9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4 | ^7.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "<=0.3.2",
+                "dhii/php-cs-fixer-config": "dev-php-5.3",
+                "phpunit/phpunit": "^4.8",
+                "ptrofimov/xpmock": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Data\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "Traits for objects that are aware of a key, a value, or both.",
+            "time": "2017-10-27 11:52:33"
+        }
+    ],
     "packages-dev": [
         {
             "name": "codeclimate/php-test-reporter",
@@ -2018,7 +2061,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "dhii/data-key-value-aware-abstract": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
