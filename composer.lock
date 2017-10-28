@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "20dbbe6cbcf24ed2d49597213a6ee533",
+    "content-hash": "d3a4a6ab21b5529bb2942a20ea839432",
     "packages": [
         {
             "name": "dhii/data-container-interface",
@@ -178,6 +178,53 @@
             ],
             "description": "Interfaces that aim to increase interoperability of value objects",
             "time": "2017-01-21T17:35:30+00:00"
+        },
+        {
+            "name": "dhii/data-object-abstract",
+            "version": "dev-task/initial-classes",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/data-object-abstract.git",
+                "reference": "ed7872339fcd0befde487e55213af85561b0b1c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/data-object-abstract/zipball/ed7872339fcd0befde487e55213af85561b0b1c9",
+                "reference": "ed7872339fcd0befde487e55213af85561b0b1c9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4 | ^7.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "<=0.3.2",
+                "dhii/php-cs-fixer-config": "^0.1",
+                "dhii/stringable-interface": "^0.1",
+                "phpunit/phpunit": "^4.8",
+                "psr/container": "^1.0",
+                "ptrofimov/xpmock": "^1.1"
+            },
+            "suggest": {
+                "dhii/stringable-interface": "To be able to pass stringable objects as keys and messages"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Data\\Object\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "Abstract common functionality for data objects",
+            "time": "2017-10-28 20:14:09"
         },
         {
             "name": "dhii/data-path-aware-interface",
@@ -578,12 +625,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/tokenizer-abstract.git",
-                "reference": "7521dac9c5323c2a815293a67fb9b84c679a38d6"
+                "reference": "1707508e2911c27123bc4cc8b70569f016cc022d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/tokenizer-abstract/zipball/7521dac9c5323c2a815293a67fb9b84c679a38d6",
-                "reference": "7521dac9c5323c2a815293a67fb9b84c679a38d6",
+                "url": "https://api.github.com/repos/Dhii/tokenizer-abstract/zipball/1707508e2911c27123bc4cc8b70569f016cc022d",
+                "reference": "1707508e2911c27123bc4cc8b70569f016cc022d",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +661,7 @@
                 }
             ],
             "description": "Abstract common functionality for tokenizers.",
-            "time": "2017-10-28 14:15:50"
+            "time": "2017-10-28 14:23:49"
         },
         {
             "name": "dhii/tokenizer-interface",
@@ -2730,7 +2777,8 @@
         "dhii/i18n-helper-base": 20,
         "dhii/exception-helper-base": 20,
         "dhii/tokenizer-interface": 20,
-        "dhii/tokenizer-abstract": 20
+        "dhii/tokenizer-abstract": 20,
+        "dhii/data-object-abstract": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
