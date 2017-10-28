@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a6c9e6c46d4c6a7e2cbdf8816d05210",
+    "content-hash": "20dbbe6cbcf24ed2d49597213a6ee533",
     "packages": [
         {
             "name": "dhii/data-container-interface",
@@ -571,6 +571,50 @@
             ],
             "description": "Interoperability interface for objects that can be cast to string",
             "time": "2017-01-23T15:08:20+00:00"
+        },
+        {
+            "name": "dhii/tokenizer-abstract",
+            "version": "dev-task/initial-classes",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/tokenizer-abstract.git",
+                "reference": "7521dac9c5323c2a815293a67fb9b84c679a38d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/tokenizer-abstract/zipball/7521dac9c5323c2a815293a67fb9b84c679a38d6",
+                "reference": "7521dac9c5323c2a815293a67fb9b84c679a38d6",
+                "shasum": ""
+            },
+            "require": {
+                "dhii/tokenizer-interface": "dev-develop",
+                "php": "^5.4 | ^7.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "<=0.3.2",
+                "dhii/php-cs-fixer-config": "^0.1",
+                "dhii/stringable-interface": "^0.1",
+                "phpunit/phpunit": "^4.8",
+                "ptrofimov/xpmock": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Parser\\Tokenizer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "Abstract common functionality for tokenizers.",
+            "time": "2017-10-28 14:15:50"
         },
         {
             "name": "dhii/tokenizer-interface",
@@ -2685,7 +2729,8 @@
         "dhii/normalization-helper-base": 20,
         "dhii/i18n-helper-base": 20,
         "dhii/exception-helper-base": 20,
-        "dhii/tokenizer-interface": 20
+        "dhii/tokenizer-interface": 20,
+        "dhii/tokenizer-abstract": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
