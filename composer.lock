@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3a4a6ab21b5529bb2942a20ea839432",
+    "content-hash": "e87659cd4b6c87a9b7ee8210d771120e",
     "packages": [
         {
             "name": "dhii/data-container-interface",
@@ -488,6 +488,48 @@
             ],
             "description": "Interfaces for internationalization.",
             "time": "2017-03-13T12:08:29+00:00"
+        },
+        {
+            "name": "dhii/iterator-abstract",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/iterator-abstract.git",
+                "reference": "02247b52f5a5bba8967b3613daffd8afe2603db4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/iterator-abstract/zipball/02247b52f5a5bba8967b3613daffd8afe2603db4",
+                "reference": "02247b52f5a5bba8967b3613daffd8afe2603db4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4 | ^7.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "<=0.3.2",
+                "dhii/iterator-interface": "dev-release/0.1",
+                "dhii/php-cs-fixer-config": "^0.1",
+                "phpunit/phpunit": "^4.8",
+                "ptrofimov/xpmock": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Iterator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "time": "2017-08-27 12:58:34"
         },
         {
             "name": "dhii/iterator-interface",
@@ -2778,7 +2820,8 @@
         "dhii/exception-helper-base": 20,
         "dhii/tokenizer-interface": 20,
         "dhii/tokenizer-abstract": 20,
-        "dhii/data-object-abstract": 20
+        "dhii/data-object-abstract": 20,
+        "dhii/iterator-abstract": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
