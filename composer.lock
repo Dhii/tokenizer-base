@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e87659cd4b6c87a9b7ee8210d771120e",
+    "content-hash": "3aff5bb2f3588d94497d4228a388fdc5",
     "packages": [
         {
             "name": "dhii/data-container-interface",
@@ -663,16 +663,16 @@
         },
         {
             "name": "dhii/tokenizer-abstract",
-            "version": "dev-task/initial-classes",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/tokenizer-abstract.git",
-                "reference": "1707508e2911c27123bc4cc8b70569f016cc022d"
+                "reference": "45588113b1fca6daf62b776aade8627d08970565"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/tokenizer-abstract/zipball/1707508e2911c27123bc4cc8b70569f016cc022d",
-                "reference": "1707508e2911c27123bc4cc8b70569f016cc022d",
+                "url": "https://api.github.com/repos/Dhii/tokenizer-abstract/zipball/45588113b1fca6daf62b776aade8627d08970565",
+                "reference": "45588113b1fca6daf62b776aade8627d08970565",
                 "shasum": ""
             },
             "require": {
@@ -703,7 +703,7 @@
                 }
             ],
             "description": "Abstract common functionality for tokenizers.",
-            "time": "2017-10-28 14:23:49"
+            "time": "2017-10-29 09:49:09"
         },
         {
             "name": "dhii/tokenizer-interface",
