@@ -19,7 +19,7 @@
         "dhii/exception-helper-base": "dev-develop",
         "dhii/tokenizer-interface": "dev-develop",
         "dhii/tokenizer-abstract": "dev-develop",
-        "dhii/data-object-abstract": "dev-task/initial-classes",
+        "dhii/data-object-abstract": "dev-develop",
         "dhii/iterator-abstract": "dev-develop"
     },
     "require-dev": {

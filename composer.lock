@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3aff5bb2f3588d94497d4228a388fdc5",
+    "content-hash": "989e013350ff490e040b738e1c62d68c",
     "packages": [
         {
             "name": "dhii/data-container-interface",
@@ -181,16 +181,16 @@
         },
         {
             "name": "dhii/data-object-abstract",
-            "version": "dev-task/initial-classes",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/data-object-abstract.git",
-                "reference": "ed7872339fcd0befde487e55213af85561b0b1c9"
+                "reference": "d08fad6e610bbb7dad2cb7965aaf593ba3c94081"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/data-object-abstract/zipball/ed7872339fcd0befde487e55213af85561b0b1c9",
-                "reference": "ed7872339fcd0befde487e55213af85561b0b1c9",
+                "url": "https://api.github.com/repos/Dhii/data-object-abstract/zipball/d08fad6e610bbb7dad2cb7965aaf593ba3c94081",
+                "reference": "d08fad6e610bbb7dad2cb7965aaf593ba3c94081",
                 "shasum": ""
             },
             "require": {
@@ -224,7 +224,7 @@
                 }
             ],
             "description": "Abstract common functionality for data objects",
-            "time": "2017-10-28 20:14:09"
+            "time": "2017-10-29 15:52:56"
         },
         {
             "name": "dhii/data-path-aware-interface",
