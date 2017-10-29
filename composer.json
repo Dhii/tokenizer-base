@@ -12,7 +12,15 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^5.4 | ^7.0"
+        "php": "^5.4 | ^7.0",
+        "dhii/data-key-value-aware-abstract": "dev-develop",
+        "dhii/normalization-helper-base": "dev-task/initial-classes",
+        "dhii/i18n-helper-base": "dev-develop",
+        "dhii/exception-helper-base": "dev-develop",
+        "dhii/tokenizer-interface": "dev-develop",
+        "dhii/tokenizer-abstract": "dev-develop",
+        "dhii/data-object-abstract": "dev-develop",
+        "dhii/iterator-abstract": "dev-develop"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
