@@ -3,8 +3,6 @@
 namespace Dhii\Parser\Tokenizer\Exception;
 
 use Exception as RootException;
-use Dhii\I18n\StringTranslatingTrait;
-use Dhii\Exception\CreateInvalidArgumentExceptionCapableTrait;
 use Dhii\Parser\Tokenizer\TokenizerInterface;
 
 /**
@@ -14,20 +12,6 @@ use Dhii\Parser\Tokenizer\TokenizerInterface;
  */
 class TokenizerException extends AbstractBaseTokenizerException
 {
-    /*
-     * Adds internal invalid argument exception factory.
-     *
-     * @since [*next-version*]
-     */
-    use CreateInvalidArgumentExceptionCapableTrait;
-
-    /*
-     * Adds basic string translation functionality.
-     *
-     * @since [*next-version*]
-     */
-    use StringTranslatingTrait;
-
     /**
      * @since [*next-version*]
      *

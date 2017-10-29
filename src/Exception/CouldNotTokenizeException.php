@@ -3,8 +3,6 @@
 namespace Dhii\Parser\Tokenizer\Exception;
 
 use Exception as RootException;
-use Dhii\I18n\StringTranslatingTrait;
-use Dhii\Exception\CreateInvalidArgumentExceptionCapableTrait;
 use Dhii\Parser\Tokenizer\TokenizerInterface;
 use Dhii\Parser\Tokenizer\ColumnNumberAwareTrait;
 use Dhii\Parser\Tokenizer\LineNumberAwareTrait;
@@ -16,20 +14,6 @@ use Dhii\Parser\Tokenizer\LineNumberAwareTrait;
  */
 class CouldNotTokenizeException extends AbstractBaseTokenizerException implements CouldNotTokenizeExceptionInterface
 {
-    /*
-     * Adds internal invalid argument exception factory.
-     *
-     * @since [*next-version*]
-     */
-    use CreateInvalidArgumentExceptionCapableTrait;
-
-    /*
-     * Adds basic string translation functionality.
-     *
-     * @since [*next-version*]
-     */
-    use StringTranslatingTrait;
-
     /*
      * Adds internal column number awareness.
      *

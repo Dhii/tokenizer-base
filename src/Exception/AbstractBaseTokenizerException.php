@@ -6,6 +6,8 @@ use RuntimeException;
 use Dhii\Parser\Tokenizer\TokenizerAwareTrait;
 use Dhii\Util\Normalization\NormalizeStringCapableTrait;
 use Dhii\Util\Normalization\NormalizeIntCapableTrait;
+use Dhii\I18n\StringTranslatingTrait;
+use Dhii\Exception\CreateInvalidArgumentExceptionCapableTrait;
 
 /**
  * Common functionality for tokenizer exceptions.
@@ -34,6 +36,19 @@ abstract class AbstractBaseTokenizerException extends RuntimeException implement
      * @since [*next-version*]
      */
     use NormalizeIntCapableTrait;
+    /*
+     * Adds internal invalid argument exception factory.
+     *
+     * @since [*next-version*]
+     */
+    use CreateInvalidArgumentExceptionCapableTrait;
+
+    /*
+     * Adds basic string translation functionality.
+     *
+     * @since [*next-version*]
+     */
+    use StringTranslatingTrait;
 
     /**
      * Parameter-less constructor.
